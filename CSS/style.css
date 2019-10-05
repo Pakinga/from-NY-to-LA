@@ -1,0 +1,94 @@
+﻿* {
+	margin: 0;
+	box-sizing: border-box; 
+	background-color: rgb(0, 0, 0);
+}
+.container{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	/*padding: 10px;*/
+	background-color: rgb(255, 255, 255);
+	font-family: 'Roboto', serif;
+	font-size: 1.1em;
+}
+main{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	padding-bottom: 10px;
+	position: relative;
+}
+section#popularity {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	height: 90px;
+}
+fieldset{
+	border: none;
+	background-color: rgb(255, 255, 255);
+}
+select{
+	background-color: rgb(255, 255, 255);
+	border: none;
+	width: 12%;
+	font-weight: bold;
+	margin-top: 15px;
+}
+option{
+	background-color: rgb(255, 255, 255);
+	
+}
+section#sights, 
+section#more{
+	float: left;
+	background-color: rgb(255, 255, 255);
+}
+article{
+	background-color: rgb(255, 255, 255);
+	width: 31%;
+	height: 120px;
+	float: left;
+	margin: 0px 14px;
+	border-top: solid;
+	border-top-width: 1.5px;
+	border-top-color: rgb(230, 230, 230);	
+	padding: 10px;
+}
+section#sights>article:nth-child(n+10):nth-child(-n+12){
+	border-bottom: solid;
+	border-bottom-width: 1.5px;
+	border-bottom-color: rgb(230, 230, 230);
+}
+article>div{
+	background-color: rgb(255, 255, 255);
+	vertical-align: middle;
+	margin-top: 20px;
+}
+div>a:nth-child(1){
+	color: rgb(0, 0, 0);
+	font-size: 1.2em;
+	text-decoration: none;
+}
+div>p:nth-child(2){
+	background-color: rgb(255, 255, 255);
+	color: rgb(191, 191, 191);
+	margin-top: 0.5em;
+}
+img{
+	width: 130px;
+	height: 100px;
+	float: left;
+	border-radius: 3%;
+	margin-right: 20px;
+}
+section#more{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 40px;
+}
+section#more>a[href="#"]{
+	color: rgb(3, 157, 252);
+	text-decoration: none;
+}
